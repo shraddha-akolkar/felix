@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="std">
+      <header>
+      <h1>Welcome to XYZ Student Portal</h1>
+      <nav>
+        <a href="#Student_Profile">Profile |</a>
+        <a href="#Courses">Courses |</a>
+        <a href="#form">Feedback |</a>
+        <a href="#display">Media |</a>
+      </nav>
+      </header>
+      <hr />
+    </div>
+
+    <div id="Student_Profile">
+      <h1>Student Profile</h1>
+      <p><strong>Name </strong> Shraddha Akolkar</p>
+      <p><b>ID: </b> LR123IK0987H</p>
+      <p><strong>Email</strong> Shraddha@gmil.com</p>
+      <img
+        src="https://tse4.mm.bing.net/th?id=OIP.cRT6RCVvwHTayfPtBx1GOAHaE8&pid=Api&P=0&h=220"
+      />
+      <hr />
+    </div>
+
+    <div id="Courses">
+      <h1>Enrolled Courses</h1>
+    <table border="2"  cellspacing="2" cellpadding="10">
+        <thead>
+          <th>Course Code	</th>
+          <th>Course Name	</th>
+          <th>Credits</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5	</td>
+            <td>HTML	</td>
+            <td>3</td>
+          </tr>
+
+          <tr>
+            <td>CSS3	</td>
+            <td>CSS	</td>
+            <td>4	</td>
+          </tr>
+
+          <tr>
+            <td>JS</td>
+            <td>Javascript</td>
+            <td>2</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <hr />
+    </div>
+
+    <div id="form">
+      <h1>📝 Feedback Form</h1>
+      <form method="post" action="#">
+        <label for="Name">Name:</label><br />
+        <input type="text" id="Name" /><br />
+        <br />
+
+        <label for="portal">Rate this portal:</label><br />
+        <input type="radio" value="good" name="Rate" />good<br />
+        <input type="radio" value="Average" name="Rate" />Average<br />
+        <input type="radio" value="Poor" name="Rate" />Poor<br />
+        <br />
+
+        <label>Suggestions:</label><br />
+        <textarea rows="6" cols="70"></textarea>
+        <br /><br />
+
+        <label>Favorite Course:</label><br />
+        <select id="Favorite Course">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JS">JS</option>
+        </select>
+        <br /><br />
+
+        <input type="checkbox" name="subscribe" id="subscribe" />
+        <label for="subscribe">subscribe</label>
+        <br /><br />
+
+        <!-- <input type="submit" value="submit Feedbck" /> -->
+        <button type="submit">submit Feedbck</button>
+      </form>
+      <hr />
+    </div>
+    <div id="display">
+      <h1>🎬 Intro Video</h1>
+      <video width="640" height="360" controls loop autoplay muted>
+      <source src="InShot_20241013_205144014.mp3" type="audio/mpeg" />
+        Your browser does not support the video tag.
+      </video>
+
+      <h1>🎧 Welcome Audio</h1>
+      <audio controls autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+     
+
+      <h1>📄 Embedded Document</h1>
+      <iframe
+        src="https://www.wikipedia.org/" loading="lazy"
+        width="99%"
+        height="600></iframe>
+      <hr />
+    </div>
+
+    <div>
+      <footer>
+        <p>&copy; 2025 XYZ College | Contact: support@xyzcollege.edu</p>
+        <p>All rights reserved | <a href="#">Back to Top</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
