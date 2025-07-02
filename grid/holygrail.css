@@ -1,0 +1,27 @@
+.page-layout {
+ display: grid;
+ height: 100vh;
+ grid-template-columns: 1fr 4fr; 
+ grid-template-rows: auto 1fr auto; 
+ grid-template-areas:
+ "header header"
+ "sidebar main"
+ "footer footer";
+ gap: 10px;
+ /* padding: 1rem; */
+ }
+ .page-header { 
+    grid-area: header; 
+    background: #eaa8d2; 
+}
+ .page-sidebar { 
+    grid-area: sidebar; 
+    background: #ac5266; }
+ .page-main {
+     grid-area: main; 
+     background: #a14141; }
+ .page-footer { 
+    grid-area: footer;
+    background: #eaa8d2; 
+     }
+
