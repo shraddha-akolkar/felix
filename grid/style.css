@@ -11,14 +11,14 @@
     background-color: #f5f1ed;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,1fr);
-    padding: 1em;
+    padding: 5em;
     /* margin: auto; */
-    gap: 0.9em;
+    /* gap: 0.9em; */
 }
 
 .grid_item{
     border: 2px black solid;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .item1{
